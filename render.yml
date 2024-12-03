@@ -4,6 +4,6 @@ services:
     env: python
     plan: free
     region: oregon
+    runtime: python3.8
     buildCommand: "pip install -r requirements.txt"
     startCommand: "rasa run --enable-api --cors '*' --port $PORT"
-    runtime: python3.8
