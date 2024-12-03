@@ -1,0 +1,36 @@
+version: "3.1"
+stories:
+  - story: greet_user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: introduce_self
+    steps:
+      - intent: introduce
+      - action: utter_introduce
+
+  - story: show_skills
+    steps:
+      - intent: show_skills
+      - action: utter_show_skills
+
+  - story: list_projects
+    steps:
+      - intent: list_projects
+      - action: utter_list_projects
+
+  - story: contact_user
+    steps:
+      - intent: contact
+      - action: utter_contact
+
+  - story: competitive_coding_info
+    steps:
+      - intent: competitive_coding
+      - action: utter_competitive_coding
+
+  - story: fallback_story
+    steps:
+      - intent: fallback
+      - action: utter_fallback

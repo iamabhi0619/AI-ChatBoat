@@ -1,0 +1,61 @@
+version: "3.1"
+rules:
+  - rule: Greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Introduce yourself
+    steps:
+      - intent: introduce
+      - action: utter_introduce
+
+  - rule: Show skills
+    steps:
+      - intent: show_skills
+      - action: utter_show_skills
+
+  - rule: List projects
+    steps:
+      - intent: list_projects
+      - action: utter_list_projects
+
+  - rule: Contact information
+    steps:
+      - intent: contact
+      - action: utter_contact
+
+  - rule: Competitive coding information
+    steps:
+      - intent: competitive_coding
+      - action: utter_competitive_coding
+
+  - rule: Long-term goals
+    steps:
+      - intent: future_goals
+      - action: utter_future_goals
+
+  - rule: Education details
+    steps:
+      - intent: education
+      - action: utter_education
+
+  - rule: Location details
+    steps:
+      - intent: location
+      - action: utter_location
+
+  - rule: Thank you response
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you
+
+  - rule: Goodbye response
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Fallback response
+    steps:
+      - intent: fallback
+      - action: utter_fallback

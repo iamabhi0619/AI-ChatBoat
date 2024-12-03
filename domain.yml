@@ -1,0 +1,66 @@
+version: "3.1"
+
+intents:
+  - greet
+  - introduce
+  - show_skills
+  - list_projects
+  - contact
+  - competitive_coding
+  - future_goals
+  - education
+  - location
+  - thank_you
+  - goodbye
+  - fallback
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm here to assist you. What would you like to know about me?"
+
+  utter_introduce:
+    - text: "Hi! I am Abhishek Kumar's portfolio chatbot. He is a B.Tech student at Lovely Professional University, Punjab, originally from Dhanbad, Jharkhand."
+
+  utter_show_skills:
+    - text: "Here are my skills:\n- MERN Stack Development\n- Strong foundation in DSA\n- Problem-solving expertise."
+
+  utter_list_projects:
+    - text: |
+        Here are some of my projects:
+        - Chat application
+        - Digital ticketing system
+        - QR-based event management system
+        - Logical web-based games
+        Want to know more?
+
+  utter_contact:
+    - text: |
+        You can reach me here:
+        - GitHub: [GitHub Profile](https://github.com/iamabhi0619)
+        - LinkedIn: [LinkedIn Profile](https://www.instagram.com/_kumar._.abhishek/)
+
+  utter_competitive_coding:
+    - text: |
+        I am active on competitive coding platforms like LeetCode. Check out my profile:
+        - [LeetCode Profile](https://leetcode.com/u/iamabhi0619/)
+
+  utter_future_goals:
+    - text: "My long-term goal is to build useful and problem-solving-based projects and excel as a web developer with strong DSA skills."
+
+  utter_education:
+    - text: "I am currently pursuing my B.Tech from Lovely Professional University, Punjab."
+
+  utter_location:
+    - text: "I am from Dhanbad, Jharkhand, and currently based in Punjab for my studies."
+
+  utter_thank_you:
+    - text: "You're welcome! Let me know if there's anything else I can assist with."
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_fallback:
+    - text: "I couldn't find what you're looking for. Please fill out the [Contact Form](/contact) or let me know how I can help!"
+
+actions:
+  - action_default_fallback

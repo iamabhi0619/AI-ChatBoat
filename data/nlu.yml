@@ -1,0 +1,90 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey there
+      - Greetings
+      - What's up?
+      - Hey!
+      - Good morning
+      - Good afternoon
+
+  - intent: introduce
+    examples: |
+      - Tell me about yourself
+      - Who are you?
+      - Can you introduce yourself?
+      - Share your background
+      - Tell me something about you
+
+  - intent: show_skills
+    examples: |
+      - What are your skills?
+      - Tell me about your technical skills
+      - What technologies do you specialize in?
+      - What is your expertise in web development?
+      - What are you good at?
+
+  - intent: list_projects
+    examples: |
+      - What projects have you worked on?
+      - Show me your portfolio
+      - Can you list some of your projects?
+      - Tell me about your past projects
+      - Have you built any real-world applications?
+
+  - intent: contact
+    examples: |
+      - How can I contact you?
+      - Give me your GitHub profile
+      - Share your LinkedIn link
+      - I want to view your profiles
+      - Can I have your contact details?
+
+  - intent: competitive_coding
+    examples: |
+      - Are you active in competitive programming?
+      - Do you use LeetCode or other platforms?
+      - Are you on LeetCode?
+
+  - intent: future_goals
+    examples: |
+      - What are your long-term goals?
+      - Where do you see yourself in the future?
+      - What do you want to achieve?
+
+  - intent: education
+    examples: |
+      - Where are you studying?
+      - Tell me about your education
+      - Which college are you from?
+
+  - intent: location
+    examples: |
+      - Where are you from?
+      - What is your hometown?
+      - Where are you currently based?
+
+  - intent: thank_you
+    examples: |
+      - Thank you
+      - Thanks a lot
+      - Appreciate it
+      - I'm grateful
+
+  - intent: goodbye
+    examples: |
+      - Bye
+      - See you later
+      - Goodbye
+      - Talk to you soon
+
+  - intent: fallback
+    examples: |
+      - I don't understand
+      - This doesn't make sense
+      - I need help
+      - What?
+      - Huh?
